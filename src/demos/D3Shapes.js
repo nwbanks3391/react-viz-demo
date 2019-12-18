@@ -45,7 +45,7 @@ class D3Shapes extends Component {
             .style('font-family', 'sans-serif')
             .style('font-size', 25)
             .style('fill', 'white')
-            .text('Hello LearnWITT')
+            .text('Hello World!')
 
 
     }
@@ -63,7 +63,7 @@ class D3Shapes extends Component {
                     <rect x="200" y="100" width="200" height="200" style={{fill: '#CB4B19'}}/>
                     <circle cx="300" cy="200" r="50" style={{fill: '#840043'}}/>
                     <text x="10" y="390" fontFamily="sans-serif" font-size="25" fill="white">
-                        Hello LearnWITT
+                        Hello World!
                     </text>
 
                     <g id="triangle">

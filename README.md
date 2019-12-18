@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## React Data Visualization Demos
+I'm looking at different ways of making data visualizations in React, so here are some things I have tried. 
+I'm making this public so if anyone is trying to get things to work and experiencing difficulty, maybe my simple examples will be of assistance to you.
+
+The packages demonstrated in this repo are:
+-d3 (Simple implementation, not extensive. I might come back to this later.)
+-Recharts (The most popular viz library for React - based on d3)
+-Nivo (Another popular React viz library, with which I have some prior experience - also based on d3)
+
 ## Available Scripts
 
 In the project directory, you can run:
