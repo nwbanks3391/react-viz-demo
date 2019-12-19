@@ -6,25 +6,25 @@ import {
 
   const data = [
     {
-      name: 'Page A', value: 78,
+      name: 'Page A', value: 78, value2: 38, 
     },
     {
-      name: 'Page B', value: 64,
+      name: 'Page B', value: 64, value2: 56,
     },
     {
-      name: 'Page C', value: 35,
+      name: 'Page C', value: 35, value2: 64,
     },
     {
-      name: 'Page D', value: 15,
+      name: 'Page D', value: 15,  value2: 92,
     },
     {
-      name: 'Page E', value: 26,
+      name: 'Page E', value: 26, value2: 85,
     },
     {
-      name: 'Page F', value: 38,
+      name: 'Page F', value: 38, value2: 39,
     },
     {
-      name: 'Page G', value: 97,
+      name: 'Page G', value: 97, value2: 12,
     },
   ];
 
@@ -60,6 +60,7 @@ class Recharts extends Component {
                         <Tooltip content={<CustomTooltip />}/>
                         {/* <Legend /> */}
                         <Bar dataKey="value" fill="#8884d8" />
+                        {/* <Bar dataKey="value2" fill="green" /> */}
                 </BarChart>
             </div>
         );

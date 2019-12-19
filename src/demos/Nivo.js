@@ -46,31 +46,11 @@ class Nivo extends Component {
                 <div style={{height: '400px', width: '600px', margin: 'auto'}}>
                     <ResponsiveBar
                         data={data}
-                        keys={[ 'hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut' ]}
+                        keys={[ 'hot dog']}
                         indexBy="country"
                         margin={{ top: 50, right: 50, bottom: 50, left: 50 }}
                         padding={0.3}
                         colors={{ scheme: 'nivo' }}
-                        defs={[
-                            {
-                                id: 'dots',
-                                type: 'patternDots',
-                                background: 'inherit',
-                                color: '#38bcb2',
-                                size: 4,
-                                padding: 1,
-                                stagger: true
-                            },
-                            {
-                                id: 'lines',
-                                type: 'patternLines',
-                                background: 'inherit',
-                                color: '#eed312',
-                                rotation: -45,
-                                lineWidth: 6,
-                                spacing: 10
-                            }
-                        ]}
                         borderColor={{ from: 'color', modifiers: [ [ 'darker', 1.6 ] ] }}
                         axisTop={null}
                         axisRight={null}
